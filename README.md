@@ -1,7 +1,7 @@
-Yenten Core integration/staging tree
+TrustFunding Core integration/staging tree
 =====================================
 
-https://conan-equal-newone.github.io/yenten/
+https://ingues.github.io/TrustFunding/
 
 * Copyright (c) 2017-     Yenten Core Developers
 * Copyright (c) 2009-2017 Bitcoin Core Developers
@@ -11,7 +11,7 @@ https://conan-equal-newone.github.io/yenten/
 License
 -------
 
-Yenten Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+TrustFunding Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Build yentend on Ubuntu 16.04
@@ -27,8 +27,8 @@ Build yentend on Ubuntu 16.04
     sudo apt-get install libdb4.8-dev
     sudo apt-get install libdb4.8++-dev
     
-    git clone https://github.com/conan-equal-newone/yenten.git
-    cd yenten
+    git clone https://github.com/INGUeS/TrustFunding.git
+    cd TrustFunding
     ./autogen.sh
     ./configure --enable-upnp-default --without-gui --disable-tests
     make
